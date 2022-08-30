@@ -1,0 +1,54 @@
+name: "Build Android"
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: production
+    container:
+      image: reactnativecommunity/react-native-android
+    steps:
+      - name: Checkout hooks
+        uses: actions/checkout@v2
+        with:
+          repository: utkusarioglu/hooks
+          path: hooks
+
+      - name: Checkout android
+        uses: actions/checkout@v2
+        with:
+          repository: utkusarioglu/android
+          path: android
+
+      - name: Install hooks dependencies
+        working-directory: hooks
+        run: yarn install --frozen-lockfile --production false
+
+      - name: Install android dependencies
+        working-directory: android
+        run: |
+          apt-get update
+          apt-get install git -y
+          yarn install --frozen-lockfile --production false
+
+      - name: Build android
+        working-directory: android
+        run: |
+          yarn ci
+
+      - name: Upload to Google Drive
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GOOGLE_DRIVE_TOKEN }}
+          filename: android/android/app/build/outputs/apk/release/app-release.apk
+          folderId: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          overwrite: "true" 
+
+      - name: Builds as artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: utkusarioglu-android-build
+          path: android/android/app/build/outputs/apk/release

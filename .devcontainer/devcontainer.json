@@ -1,0 +1,18 @@
+{
+  "name": "android.rn-18.trials.utkusarioglu.com",
+  "dockerComposeFile": [
+    "../.docker/docker-compose.dev.yml",
+    "docker-compose.yml"
+  ],
+  "service": "react-native",
+  "workspaceFolder": "/utkusarioglu/trials/rn-18/android",
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#006644"
+    }
+  },
+  "extensions": [
+    "msjsdiag.vscode-react-native",
+    "vscjava.vscode-java-pack"
+  ]
+}

@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  react-native:
+    image: utkusarioglu/react-native-android-devcontainer:1.0.0
+    volumes:
+      - type: bind
+        source: ..
+        target: /utkusarioglu/trials/rn-18/android
+      - type: bind
+        source: ../../hooks
+        target: /utkusarioglu/trials/rn-18/common
+        read_only: true
+        volume:
+          nocopy: true
