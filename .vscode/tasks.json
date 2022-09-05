@@ -1,0 +1,68 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ADB Connect to WSA",
+      "type": "shell",
+      "command": "scripts/adb-connect.sh",
+      "detail": "Connect to Windows Subsystem for Android device",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true,
+        "close": false
+      }
+    },
+    {
+      "label": "ADB Disconnect from WSA",
+      "type": "shell",
+      "command": "adb disconnect",
+      "detail": "Disconnect from Windows Subsystem for Android Device",
+      "presentation": {
+        "echo": false,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true,
+        "close": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "React Native Start",
+      "detail": "Start React Native runtime",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "adb"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "android",
+      "problemMatcher": [],
+      "label": "React Native Android",
+      "detail": "Start React Native Android Run",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": false,
+        "group": "adb",
+        "close": true
+      }
+    }
+  ]
+}

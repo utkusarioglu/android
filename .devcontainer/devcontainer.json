@@ -14,5 +14,8 @@
   "extensions": [
     "msjsdiag.vscode-react-native",
     "vscjava.vscode-java-pack"
-  ]
+  ],
+  // "features": {
+  //   "github-cli": "latest"
+  // }
 }

@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   react-native:
-    image: utkusarioglu/react-native-android-devcontainer:1.0.0
+    image: utkusarioglu/react-native-android-devcontainer:1.0.1
     volumes:
       - type: bind
         source: ..
@@ -13,3 +13,9 @@ services:
         read_only: true
         volume:
           nocopy: true
+      - type: volume
+        source: ccache
+        target: /ccache
+
+volumes:
+  ccache:
