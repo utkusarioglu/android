@@ -84,7 +84,7 @@ const FirstContent: FC<
           backgroundColor: isDarkMode ? Colors.black : Colors.white,
           height: "100%",
         }}>
-        <Text style={{ fontSize: 50 }}>Ut</Text>
+        <Text style={{ fontSize: 50, backgroundColor: "pink" }}>Ut</Text>
         <Text style={{ fontSize: 30, backgroundColor: "gray" }}>{random}</Text>
       </View>
     </ScrollView>
