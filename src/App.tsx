@@ -6,7 +6,6 @@ import React, {
   useEffect,
   useState,
   type FC,
-  CSSProperties,
 } from "react";
 import {
   SafeAreaView,
