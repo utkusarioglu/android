@@ -67,3 +67,5 @@ buck-out/
 .env.*
 !.env.example
 !.env.*.example
+
+android/app/build

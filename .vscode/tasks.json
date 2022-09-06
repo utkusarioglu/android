@@ -61,7 +61,7 @@
         "showReuseMessage": false,
         "clear": false,
         "group": "adb",
-        "close": true
+        "close": false
       }
     }
   ]

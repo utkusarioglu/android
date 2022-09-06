@@ -17,5 +17,6 @@
   ],
   // "features": {
   //   "github-cli": "latest"
-  // }
+  // },
+  "postCreateCommand": "yarn"
 }
