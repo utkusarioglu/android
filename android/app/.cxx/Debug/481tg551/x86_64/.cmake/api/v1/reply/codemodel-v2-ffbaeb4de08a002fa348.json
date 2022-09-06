@@ -1,0 +1,98 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "fbjni_build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/utkusarioglu/trials/rn-18/android/node_modules/react-native/ReactAndroid/src/main/jni/first-party/fbjni"
+				},
+				{
+					"build" : "rngesturehandler_autolinked_build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/utkusarioglu/trials/rn-18/android/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "eighteen_appmodules",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "eighteen_appmodules::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eighteen_appmodules-Debug-7a20dc7752c4a3bdae6f.json",
+					"name" : "eighteen_appmodules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "react_codegen_rngesturehandler::@2ea3191642d878282e41",
+					"jsonFile" : "target-react_codegen_rngesturehandler-Debug-cc31f4391eb5b6628d08.json",
+					"name" : "react_codegen_rngesturehandler",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64",
+		"source" : "/utkusarioglu/trials/rn-18/android/android/app/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

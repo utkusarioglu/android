@@ -1,0 +1,13 @@
+# ninja log v5
+0	3	0	/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64/CMakeFiles/cmake.verify_globs	45f458caa7f6a1e4
+13	4629	1662458177	rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/EventEmitters.cpp.o	601bd8a6062952fc
+0	5198	1662458177	CMakeFiles/eighteen_appmodules.dir/MainApplicationTurboModuleManagerDelegate.cpp.o	6b1366829e611498
+1	5267	1662458177	CMakeFiles/eighteen_appmodules.dir/MainApplicationModuleProvider.cpp.o	dd76473ae1f3fb15
+12	8617	1662458181	CMakeFiles/eighteen_appmodules.dir/OnLoad.cpp.o	7f0d9d1fa7421f93
+5267	9931	1662458182	rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/rngesturehandler-generated.cpp.o	6bd5cac4a889fe6b
+5198	9994	1662458182	rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/ShadowNodes.cpp.o	46079d81c021846d
+4630	10983	1662458183	rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/Props.cpp.o	e6dab4a58c6e861d
+10983	11128	1662458183	/utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libreact_codegen_rngesturehandler.so	3f3434826af8f045
+0	11680	1662458184	CMakeFiles/eighteen_appmodules.dir/utkusarioglu/trials/rn-18/android/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o	facab4373c6ee393
+7	12352	1662458184	CMakeFiles/eighteen_appmodules.dir/MainComponentsRegistry.cpp.o	2f977c3ce4ef218b
+12352	12449	1662458185	/utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libeighteen_appmodules.so	37d8557ed0930c77
