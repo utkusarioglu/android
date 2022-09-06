@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "ci": "cd android && ./gradlew assembleRelease",
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android-release": "react-native run-android --variant=release",
+    "android-active-arch": "react-native run-android --active-arch-only",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"

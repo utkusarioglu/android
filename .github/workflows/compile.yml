@@ -2,37 +2,29 @@ name: compile-android
 
 on:
   push:
-    # branches:
-    #   - features/compile
   workflow_dispatch:
-
-# env:
-  # BASE_IMAGE_TAG: latest
-  # CONTAINER_NAME: react-native-android-devcontainer
-  # DOCKERFILE: src/Dockerfile.android.dev
-  # CACHE_TO_DEST: /tmp/.buildx-cache-new
-  # CACHE_FROM_SRC: /tmp/.buildx-cache
 
 jobs:
   compile-android:
     name: compile-android
     runs-on: ubuntu-latest
     container:
-      image: utkusarioglu/react-native-android-devcontainer:1.0.6
+      image: utkusarioglu/react-native-android-devcontainer:1.0.7
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      
-      - name: ops 
+
+      - name: ops
         run: |
-          yarn
+          echo "GCC"
           which gcc
+          yarn
           ccache -s          
           yarn android
-          ccache -s          
+          ccache -s
 
       - name: Telegram notifications
         if: always()
