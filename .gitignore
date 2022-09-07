@@ -69,3 +69,4 @@ buck-out/
 !.env.*.example
 
 android/app/build
+android/app/.cxx
