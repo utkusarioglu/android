@@ -15,8 +15,11 @@
     "msjsdiag.vscode-react-native",
     "vscjava.vscode-java-pack"
   ],
-  // "features": {
-  //   "github-cli": "latest"
-  // },
+  "features": {
+    "github-cli": "latest",
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
   "postCreateCommand": "yarn"
 }
