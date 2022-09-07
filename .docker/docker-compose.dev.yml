@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   react-native:
-    image: utkusarioglu/react-native-android-devcontainer:1.0.12
+    image: utkusarioglu/react-native-android-devcontainer:1.0.13
     volumes:
       - type: bind
         source: ..
