@@ -7,12 +7,12 @@ services:
       - type: bind
         source: ..
         target: /utkusarioglu/trials/rn-18/android
-      - type: bind
-        source: ../../hooks
-        target: /utkusarioglu/trials/rn-18/common
-        read_only: true
-        volume:
-          nocopy: true
+      # - type: bind
+      #   source: ../../hooks
+      #   target: /utkusarioglu/trials/rn-18/common
+      #   read_only: true
+      #   volume:
+      #     nocopy: true
       - type: volume
         source: ccache
         target: /ccache
