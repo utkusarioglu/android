@@ -1,0 +1,13 @@
+ninja: Entering directory `/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64'
+[0/2] Re-checking globbed directories...
+[1/11] Building CXX object CMakeFiles/eighteen_appmodules.dir/MainApplicationModuleProvider.cpp.o
+[2/11] Building CXX object rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/EventEmitters.cpp.o
+[3/11] Building CXX object CMakeFiles/eighteen_appmodules.dir/MainApplicationTurboModuleManagerDelegate.cpp.o
+[4/11] Building CXX object CMakeFiles/eighteen_appmodules.dir/OnLoad.cpp.o
+[5/11] Building CXX object rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/ShadowNodes.cpp.o
+[6/11] Building CXX object rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/rngesturehandler-generated.cpp.o
+[7/11] Building CXX object rngesturehandler_autolinked_build/CMakeFiles/react_codegen_rngesturehandler.dir/react/renderer/components/rngesturehandler/Props.cpp.o
+[8/11] Linking CXX shared library /utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libreact_codegen_rngesturehandler.so
+[9/11] Building CXX object CMakeFiles/eighteen_appmodules.dir/utkusarioglu/trials/rn-18/android/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o
+[10/11] Building CXX object CMakeFiles/eighteen_appmodules.dir/MainComponentsRegistry.cpp.o
+[11/11] Linking CXX shared library /utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libeighteen_appmodules.so
