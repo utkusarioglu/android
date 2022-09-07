@@ -16,7 +16,12 @@ services:
       - type: volume
         source: ccache
         target: /ccache
+      - type: volume
+        source: gradle
+        target: /root/.gradle
 
 volumes:
   ccache:
     name: react-native-ccache
+  gradle:
+    name: react-native-gradle
