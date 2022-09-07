@@ -1,8 +1,0 @@
-Executable : /opt/android/cmake/3.18.1/bin/ninja
-arguments : 
--C
-/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64
-eighteen_appmodules
-react_codegen_rngesturehandler
-jvmArgs : 
-
