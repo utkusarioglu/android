@@ -11,3 +11,17 @@
 0	13421	1662528134	CMakeFiles/eighteen_appmodules.dir/utkusarioglu/trials/rn-18/android/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o	facab4373c6ee393
 43	13444	1662528134	CMakeFiles/eighteen_appmodules.dir/MainComponentsRegistry.cpp.o	2f977c3ce4ef218b
 13444	13534	1662528134	/utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libeighteen_appmodules.so	37d8557ed0930c77
+0	4	0	/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64/CMakeFiles/cmake.verify_globs	45f458caa7f6a1e4
+4	68	1662539974	build.ninja	100c79bbeb259964
+0	3	0	/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64/CMakeFiles/cmake.verify_globs	45f458caa7f6a1e4
+3	3334	1662539978	CMakeFiles/eighteen_appmodules.dir/MainApplicationModuleProvider.cpp.o	dd76473ae1f3fb15
+2	6368	1662539981	CMakeFiles/eighteen_appmodules.dir/utkusarioglu/trials/rn-18/android/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o	facab4373c6ee393
+2	7121	1662539982	CMakeFiles/eighteen_appmodules.dir/MainComponentsRegistry.cpp.o	2f977c3ce4ef218b
+7121	7325	1662539982	/utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libeighteen_appmodules.so	37d8557ed0930c77
+0	8	0	/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64/CMakeFiles/cmake.verify_globs	45f458caa7f6a1e4
+8	45	1662540070	build.ninja	100c79bbeb259964
+0	3	0	/utkusarioglu/trials/rn-18/android/android/app/.cxx/Debug/481tg551/x86_64/CMakeFiles/cmake.verify_globs	45f458caa7f6a1e4
+2	2209	1662540073	CMakeFiles/eighteen_appmodules.dir/MainApplicationModuleProvider.cpp.o	dd76473ae1f3fb15
+17	4679	1662540075	CMakeFiles/eighteen_appmodules.dir/utkusarioglu/trials/rn-18/android/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o	facab4373c6ee393
+8	5129	1662540076	CMakeFiles/eighteen_appmodules.dir/MainComponentsRegistry.cpp.o	2f977c3ce4ef218b
+5129	5189	1662540076	/utkusarioglu/trials/rn-18/android/android/app/build/intermediates/cxx/Debug/481tg551/obj/x86_64/libeighteen_appmodules.so	37d8557ed0930c77
