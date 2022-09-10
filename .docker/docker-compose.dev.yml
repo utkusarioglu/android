@@ -19,9 +19,21 @@ services:
       - type: volume
         source: gradle
         target: /root/.gradle
+      # - type: volume
+      #   source: android-ndk
+      #   target: /opt/android/ndk/21.4.7075529/toolchains/llvm/prebuilt
+      - type: volume
+        source: android
+        target: /opt/android
 
 volumes:
   ccache:
     name: react-native-ccache
   gradle:
     name: react-native-gradle
+
+  # android-ndk:
+  #   name: react-native-android-ndk-prebuilt
+
+  android:
+    name: react-native-android
