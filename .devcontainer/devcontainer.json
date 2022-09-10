@@ -6,19 +6,17 @@
   ],
   "service": "react-native",
   "workspaceFolder": "/utkusarioglu/trials/rn-18/android",
-  "settings": {
-    "workbench.colorCustomizations": {
-      "activityBar.background": "#006644"
-    }
-  },
-  "extensions": [
-    "msjsdiag.vscode-react-native",
-    "vscjava.vscode-java-pack"
-  ],
-  "features": {
-    "github-cli": "latest",
-    "ghcr.io/devcontainers/features/sshd:1": {
-      "version": "latest"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "msjsdiag.vscode-react-native",
+        "vscjava.vscode-java-pack"
+      ],
+      "settings": {
+        "workbench.colorCustomizations": {
+          "activityBar.background": "#006644"
+        }
+      }
     }
   },
   "postCreateCommand": "yarn"
