@@ -13,7 +13,7 @@
         "panel": "dedicated",
         "showReuseMessage": false,
         "clear": true,
-        "close": false
+        "close": true
       }
     },
     {
