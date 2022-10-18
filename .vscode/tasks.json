@@ -13,7 +13,7 @@
         "panel": "dedicated",
         "showReuseMessage": false,
         "clear": true,
-        "close": true
+        "close": false
       }
     },
     {
@@ -28,7 +28,7 @@
         "panel": "dedicated",
         "showReuseMessage": false,
         "clear": true,
-        "close": true
+        "close": false
       }
     },
     {
