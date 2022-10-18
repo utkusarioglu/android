@@ -1,15 +1,15 @@
 import React, { type FC } from "react";
-import { SafeAreaView } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
 import { Button, Divider, Layout, TopNavigation } from "@ui-kitten/components";
 import { type NativeStackScreenProps } from "@react-navigation/native-stack";
-import { type AppNavigatorParams } from "../navigators/App.navigator";
+import { type AppNavigatorParams } from "_types/navigation.types";
 
 type HomeScreenProps = NativeStackScreenProps<AppNavigatorParams, "Home"> & {
   logoutOnPress: () => void;
 };
 
-const HomeScreen: FC<HomeScreenProps> = ({ navigation }) => {
-  const navigateDetails = () => {
+const HomeScreen: FC<HomeScreenProps> = ({ navigation, logoutOnPress }) => {
+  const navigateMessages = () => {
     navigation.navigate("Messages");
   };
 
@@ -19,7 +19,8 @@ const HomeScreen: FC<HomeScreenProps> = ({ navigation }) => {
       <Divider />
       <Layout
         style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Button onPress={navigateDetails}>Messages</Button>
+        <Button onPress={navigateMessages}>Messages</Button>
+        <Button onPress={logoutOnPress}>Logout</Button>
       </Layout>
     </SafeAreaView>
   );
