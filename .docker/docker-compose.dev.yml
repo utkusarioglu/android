@@ -3,6 +3,8 @@ version: "3.9"
 services:
   react-native:
     image: utkusarioglu/react-native-android-devcontainer:1.0.16
+    extra_hosts:
+      - android-host:host-gateway
     volumes:
       - type: bind
         source: ..
