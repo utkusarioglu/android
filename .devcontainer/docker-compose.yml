@@ -2,11 +2,20 @@ version: "3.9"
 services:
   react-native:
     volumes:
-      - vscode-extensions:/root/.vscode-server/extensions
-      - vscode-extensions-insiders:/root/.vscode-server-insiders/extensions
-      - ~/.config/gh:/home/rn/.config/gh:ro
+      - type: volume
+        source: vscode-extensions
+        target: /home/rn/.vscode-server/extensions
+      - type: volume
+        source: vscode-extensions-insiders
+        target: /home/rn/.vscode-server-insiders/extensions
+      - type: bind
+        source: ~/.config/gh
+        target: /home/rn/.config/gh
+        read_only: true
     command: /bin/sh -c "while sleep 1000; do :; done"
 
 volumes:
   vscode-extensions:
+    name: eighteen-trial-vscode-extensions
   vscode-extensions-insiders:
+    name: eighteen-trial-vscode-extensions-insiders
