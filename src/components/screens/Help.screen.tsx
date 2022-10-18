@@ -3,6 +3,7 @@ import { type NativeStackScreenProps } from "@react-navigation/native-stack";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Text } from "@ui-kitten/components";
 import { type AppNavigatorParams } from "_types/navigation.types";
+import CenterCenterLayout from "_layouts/CenterCenter.layout";
 
 export const HelpScreen: FC<
   NativeStackScreenProps<AppNavigatorParams, "Help">
@@ -12,7 +13,9 @@ export const HelpScreen: FC<
   },
 }) => (
   <SafeAreaView>
-    <Text>Content:</Text>
-    <Text>{content}</Text>
+    <CenterCenterLayout>
+      <Text>Content:</Text>
+      <Text>{content}</Text>
+    </CenterCenterLayout>
   </SafeAreaView>
 );

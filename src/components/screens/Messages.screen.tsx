@@ -14,6 +14,7 @@ import {
 } from "@ui-kitten/components";
 import { type RenderProp } from "@ui-kitten/components/devsupport";
 import { type ImageProps } from "react-native-svg";
+import TopLeftLayout from "_layouts/TopLeft.layout";
 
 type MessagesScreenProps = NativeStackScreenProps<
   AppNavigatorParams,
@@ -21,7 +22,7 @@ type MessagesScreenProps = NativeStackScreenProps<
 >;
 
 const BackIcon: RenderProp<Partial<ImageProps>> = (props) => (
-  <Icon {...props} name="arrow-back" />
+  <Icon name="facebook" {...props} />
 );
 
 const MessagesScreen: FC<MessagesScreenProps> = ({ navigation }) => {
@@ -30,22 +31,22 @@ const MessagesScreen: FC<MessagesScreenProps> = ({ navigation }) => {
   };
 
   const BackAction = () => (
-    <TopNavigationAction icon={BackIcon} onPress={navigateBack} />
+    <TopNavigationAction icon={<Text>◀</Text>} onPress={navigateBack} />
   );
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <TopNavigation
-        title="MyApp"
-        alignment="center"
-        accessoryLeft={BackAction}
-      />
-      <Divider />
-      <Layout
-        style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <TopLeftLayout>
+        <TopNavigation
+          title="MyApp"
+          alignment="center"
+          accessoryLeft={BackAction}
+        />
+        <Divider />
+        <BackIcon height={20} width={20} />
         <Text category="h1">Messages</Text>
         <Button>Button</Button>
-      </Layout>
+      </TopLeftLayout>
     </SafeAreaView>
   );
 };
