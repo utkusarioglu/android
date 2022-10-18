@@ -8,8 +8,8 @@ import {
 } from "@react-navigation/native";
 import HomeScreen from "_screens/Home.screen";
 import MessagesScreen from "_screens/Messages.screen";
-import { HelpScreen } from "../screens/Help.screen";
-import LoginScreen from "../screens/Login.screen";
+import { HelpScreen } from "_screens/Help.screen";
+import LoginScreen from "_screens/Login.screen";
 import { type AppNavigatorParams } from "_types/navigation.types";
 
 const Stack = createNativeStackNavigator<AppNavigatorParams>();
