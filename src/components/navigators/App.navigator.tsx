@@ -7,8 +7,7 @@ import {
   DefaultTheme,
 } from "@react-navigation/native";
 import HomeScreen from "_screens/Home.screen";
-import MessagesScreen from "_screens/Messages.screen";
-import { HelpScreen } from "_screens/Help.screen";
+import HelpScreen from "_screens/Help.screen";
 import LoginScreen from "_screens/Login.screen";
 import { type AppNavigatorParams } from "_types/navigation.types";
 
@@ -28,7 +27,6 @@ const AppNavigator = () => {
           <Stack.Screen name="Home">
             {(props) => <HomeScreen {...props} logoutOnPress={logoutOnPress} />}
           </Stack.Screen>
-          <Stack.Screen name="Messages" component={MessagesScreen} />
         </Stack.Navigator>
       ) : (
         <Stack.Navigator screenOptions={{ headerShown: false }}>

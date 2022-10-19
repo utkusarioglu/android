@@ -5,9 +5,7 @@ import { Text } from "@ui-kitten/components";
 import { type AppNavigatorParams } from "_types/navigation.types";
 import CenterCenterLayout from "_layouts/CenterCenter.layout";
 
-export const HelpScreen: FC<
-  NativeStackScreenProps<AppNavigatorParams, "Help">
-> = ({
+const HelpScreen: FC<NativeStackScreenProps<AppNavigatorParams, "Help">> = ({
   route: {
     params: { content },
   },
@@ -19,3 +17,5 @@ export const HelpScreen: FC<
     </CenterCenterLayout>
   </SafeAreaView>
 );
+
+export default HelpScreen;
