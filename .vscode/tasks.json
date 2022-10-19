@@ -4,7 +4,11 @@
     {
       "label": "ADB Connect to WSA",
       "type": "shell",
-      "command": "scripts/adb-connect.sh",
+      "command": "adb",
+      "args": [
+        "connect",
+        "${input:adbTarget}"
+      ],
       "detail": "Connect to Windows Subsystem for Android device",
       "presentation": {
         "echo": true,
@@ -63,6 +67,14 @@
         "group": "adb",
         "close": false
       }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "adbTarget",
+      "default": "android-host:58526",
+      "description": "<ip:port> of the adb target to connect",
+      "type": "promptString"
     }
   ]
 }
