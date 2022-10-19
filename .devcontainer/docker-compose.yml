@@ -8,10 +8,10 @@ services:
       - type: volume
         source: vscode-extensions-insiders
         target: /home/rn/.vscode-server-insiders/extensions
-      - type: bind
-        source: ~/.config/gh
-        target: /home/rn/.config/gh
-        read_only: true
+      # - type: bind
+      #   source: ~/.config/gh
+      #   target: /home/rn/.config/gh
+      #   read_only: true
     command: /bin/sh -c "while sleep 1000; do :; done"
 
 volumes:
