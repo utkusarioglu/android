@@ -13,8 +13,10 @@ const LoginScreen: FC<
 > = ({ navigation: { navigate }, loginOnPress }) => (
   <SafeAreaView style={styles.safeAreaView}>
     <CenterCenterLayout>
-      <Text>Log in screen</Text>
-      <Text>Will login in 3 seconds</Text>
+      <View style={styles.titleContainer}>
+        <Text style={styles.title}>BlockSocial</Text>
+        <Text style={styles.motto}>The most amazong app ever</Text>
+      </View>
       <View style={styles.buttonContainer}>
         <Button onPress={loginOnPress} style={styles.button}>
           Login
@@ -31,6 +33,19 @@ const LoginScreen: FC<
 );
 
 const styles = StyleSheet.create({
+  titleContainer: {
+    padding: 16,
+    marginBottom: 16,
+  },
+  title: {
+    fontSize: 50,
+    fontFamily: "Teko",
+    alignSelf: "center",
+  },
+  motto: {
+    alignSelf: "center",
+    fontFamily: "Tajawal",
+  },
   safeAreaView: {
     flex: 1,
   },

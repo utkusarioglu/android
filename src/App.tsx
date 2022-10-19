@@ -12,12 +12,13 @@ import {
 } from "@ui-kitten/components";
 import { EvaIconsPack } from "@ui-kitten/eva-icons";
 import { StyleSheet } from "react-native";
+import { darkTheme } from "./theme";
 
 const App = () => {
   return (
     <>
       <IconRegistry icons={EvaIconsPack} />
-      <ApplicationProvider {...eva} theme={eva.dark}>
+      <ApplicationProvider {...eva} theme={darkTheme}>
         <SafeAreaProvider>
           <Layout style={styles.container}>
             <AppNavigator />
