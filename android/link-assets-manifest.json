@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Tajawal.ttf",
+      "sha1": "22513672b312cb92dbfee4ffb265e52657d26ede"
+    },
+    {
+      "path": "assets/fonts/Teko.ttf",
+      "sha1": "b8f048eded9770e81b701f8e5795c1c95ad35ac3"
+    }
+  ]
+}
