@@ -10,7 +10,8 @@
     "vscode": {
       "extensions": [
         "msjsdiag.vscode-react-native",
-        "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack",
+        "esbenp.vscode-prettier"
       ],
       "settings": {
         "workbench.colorCustomizations": {
