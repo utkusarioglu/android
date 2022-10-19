@@ -1,33 +1,57 @@
 import React, { type FC } from "react";
-import { SafeAreaView, StyleSheet, View } from "react-native";
-import { Button, Divider, TopNavigation } from "@ui-kitten/components";
+import { SafeAreaView, StyleSheet } from "react-native";
+import {
+  BottomNavigation,
+  BottomNavigationTab,
+  // Icon,
+  Text,
+  ViewPager,
+} from "@ui-kitten/components";
 import { type NativeStackScreenProps } from "@react-navigation/native-stack";
 import { type AppNavigatorParams } from "_types/navigation.types";
-import CenterCenterLayout from "_layouts/CenterCenter.layout";
+import { type RenderProp } from "@ui-kitten/components/devsupport";
+import { type ImageProps } from "react-native-svg";
+import HomeLayout from "_layouts/Home.layout";
+import MessagesLayout from "_layouts/Messages.layout";
 
-type HomeScreenProps = NativeStackScreenProps<AppNavigatorParams, "Home"> & {
+const HomeIcon: RenderProp<Partial<ImageProps>> = (props) => (
+  <Text category="h4">H</Text>
+  // <Icon name="facebook" {...props} />
+);
+
+const MessagesIcon: RenderProp<Partial<ImageProps>> = (props) => (
+  <Text category="h4">M</Text>
+  // <Icon name="facebook" {...props} />
+);
+
+export type HomeScreenProps = NativeStackScreenProps<
+  AppNavigatorParams,
+  "Home"
+> & {
   logoutOnPress: () => void;
 };
 
+const useBottomNavigationState = (initialState = 0) => {
+  const [selectedIndex, setSelectedIndex] = React.useState(initialState);
+  return { selectedIndex, onSelect: setSelectedIndex };
+};
+
 const HomeScreen: FC<HomeScreenProps> = ({ navigation, logoutOnPress }) => {
-  const navigateMessages = () => {
-    navigation.navigate("Messages");
-  };
+  const bottomState = useBottomNavigationState();
 
   return (
     <SafeAreaView style={styles.safeAreaView}>
-      <TopNavigation title="Heyo" alignment="center" />
-      <Divider />
-      <CenterCenterLayout>
-        <View style={styles.buttonContainer}>
-          <Button style={styles.button} onPress={navigateMessages}>
-            Messages
-          </Button>
-          <Button style={styles.button} onPress={logoutOnPress}>
-            Logout
-          </Button>
-        </View>
-      </CenterCenterLayout>
+      <ViewPager
+        selectedIndex={bottomState.selectedIndex}
+        style={styles.pager}
+        onSelect={(index) => bottomState.onSelect(index)}>
+        <HomeLayout logoutOnPress={logoutOnPress} />
+        <MessagesLayout />
+      </ViewPager>
+      <BottomNavigation {...bottomState}>
+        <BottomNavigationTab title="Home" icon={HomeIcon} />
+        <BottomNavigationTab title="Messages" icon={MessagesIcon} />
+      </BottomNavigation>
     </SafeAreaView>
   );
 };
@@ -41,13 +65,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  buttonContainer: {
-    width: "100%",
-    padding: 16,
-  },
-  button: {
-    marginBottom: 8,
-    width: "100%",
+  pager: {
+    flex: 1,
   },
 });
 
