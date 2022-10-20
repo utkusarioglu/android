@@ -32,7 +32,7 @@ export type HomeScreenProps = NativeStackScreenProps<
 };
 
 const useBottomNavigationState = (initialState = 0) => {
-  const [selectedIndex, setSelectedIndex] = React.useState(initialState);
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
   return { selectedIndex, onSelect: setSelectedIndex };
 };
 
