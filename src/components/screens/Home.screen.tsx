@@ -3,26 +3,19 @@ import { SafeAreaView, StyleSheet } from "react-native";
 import {
   BottomNavigation,
   BottomNavigationTab,
-  // Icon,
-  Text,
   ViewPager,
 } from "@ui-kitten/components";
 import { type NativeStackScreenProps } from "@react-navigation/native-stack";
 import { type AppNavigatorParams } from "_types/navigation.types";
-import { type RenderProp } from "@ui-kitten/components/devsupport";
-import { type ImageProps } from "react-native-svg";
 import HomeLayout from "_layouts/Home.layout";
 import MessagesLayout from "_layouts/Messages.layout";
+import IconView from "_views/icon/Icon.view";
 
-const HomeIcon: RenderProp<Partial<ImageProps>> = (props) => (
-  <Text category="h4">H</Text>
-  // <Icon name="facebook" {...props} />
-);
-
-const MessagesIcon: RenderProp<Partial<ImageProps>> = (props) => (
-  <Text category="h4">M</Text>
-  // <Icon name="facebook" {...props} />
-);
+const homeBottomNavigationItems = [
+  { title: "Home!", iconName: "home-outline" },
+  { title: "Messages", iconName: "message-square-outline" },
+  { title: "Profile", iconName: "color-palette-outline" },
+];
 
 export type HomeScreenProps = NativeStackScreenProps<
   AppNavigatorParams,
@@ -49,8 +42,14 @@ const HomeScreen: FC<HomeScreenProps> = ({ navigation, logoutOnPress }) => {
         <MessagesLayout />
       </ViewPager>
       <BottomNavigation {...bottomState}>
-        <BottomNavigationTab title="Home" icon={HomeIcon} />
-        <BottomNavigationTab title="Messages" icon={MessagesIcon} />
+        {homeBottomNavigationItems.map(({ title, iconName }) => (
+          <BottomNavigationTab
+            key={title}
+            title={title}
+            style={styles.bottomNavigationTab}
+            icon={(props) => <IconView name={iconName} {...props} />}
+          />
+        ))}
       </BottomNavigation>
     </SafeAreaView>
   );
@@ -67,6 +66,9 @@ const styles = StyleSheet.create({
   },
   pager: {
     flex: 1,
+  },
+  bottomNavigationTab: {
+    paddingTop: 8,
   },
 });
 

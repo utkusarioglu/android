@@ -2,6 +2,7 @@ import { List, ListItem, Divider, Avatar, Text } from "@ui-kitten/components";
 import { FC } from "react";
 import { StyleSheet } from "react-native";
 import TopLeftLayout from "_layouts/TopLeft.layout";
+import IconView from "_views/icon/Icon.view";
 
 const data = [
   {
@@ -44,7 +45,7 @@ const MessageListItem: FC<MessageListItemProps> = ({
       accessoryLeft={() => (
         <Avatar style={styles.avatar} size="tiny" source={{ uri: avatar }} />
       )}
-      accessoryRight={() => <Text>a</Text>}
+      accessoryRight={(props) => <IconView name="camera-outline" {...props} />}
     />
   );
 };
