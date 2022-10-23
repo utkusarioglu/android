@@ -1,0 +1,244 @@
+> Task :ReactAndroid:hermes-engine:buildHermes
+Scanning dependencies of target LLVHDemangle
+Scanning dependencies of target zip
+Scanning dependencies of target dtoa
+[  0%] Building CXX object external/llvh/lib/Demangle/CMakeFiles/LLVHDemangle.dir/ItaniumDemangle.cpp.o
+[  0%] Building C object external/zip/CMakeFiles/zip.dir/src/zip.c.o
+[  0%] Building CXX object external/llvh/lib/Demangle/CMakeFiles/LLVHDemangle.dir/MicrosoftDemangle.cpp.o
+[  0%] Building C object external/dtoa/CMakeFiles/dtoa.dir/dtoa.c.o
+[  3%] Building C object external/dtoa/CMakeFiles/dtoa.dir/g_fmt.c.o
+[  3%] Building CXX object external/dtoa/CMakeFiles/dtoa.dir/locks.cpp.o
+[  6%] Linking C static library libzip.a
+[  6%] Linking CXX static library libdtoa.a
+[  6%] Building CXX object external/llvh/lib/Demangle/CMakeFiles/LLVHDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[  6%] Built target zip
+[  6%] Built target dtoa
+[ 10%] Linking CXX static library libLLVHDemangle.a
+[ 10%] Built target LLVHDemangle
+Scanning dependencies of target LLVHSupport
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/APFloat.cpp.o
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/APInt.cpp.o
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/circular_raw_ostream.cpp.o
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/CommandLine.cpp.o
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/ConvertUTF.cpp.o
+[ 10%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/ConvertUTFWrapper.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Debug.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Errno.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Error.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/ErrorHandling.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/FileCheck.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/FoldingSet.cpp.o
+[ 13%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/GraphWriter.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Hashing.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Host.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/InitLLVM.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/LineIterator.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Locale.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/ManagedStatic.cpp.o
+[ 16%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/MD5.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Memory.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/MemoryBuffer.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Mutex.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/NativeFormatting.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Path.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/PrettyStackTrace.cpp.o
+[ 20%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Process.cpp.o
+[ 23%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Program.cpp.o
+[ 23%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/raw_ostream.cpp.o
+[ 23%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/raw_os_ostream.cpp.o
+[ 23%] Building C object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/regcomp.c.o
+[ 23%] Building C object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/regerror.c.o
+[ 23%] Building C object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/regfree.c.o
+[ 23%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Regex.cpp.o
+[ 26%] Building C object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/regexec.c.o
+[ 26%] Building C object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/regstrlcpy.c.o
+[ 26%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/SHA1.cpp.o
+[ 26%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Signals.cpp.o
+[ 26%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/SmallVector.cpp.o
+[ 26%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/SmallPtrSet.cpp.o
+[ 26%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/SourceMgr.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Statistic.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/StringExtras.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/StringMap.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/StringRef.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/StringSaver.cpp.o
+[ 30%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/TargetParser.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Threading.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Timer.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Triple.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Twine.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Unicode.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Valgrind.cpp.o
+[ 33%] Building CXX object external/llvh/lib/Support/CMakeFiles/LLVHSupport.dir/Watchdog.cpp.o
+[ 36%] Linking CXX static library libLLVHSupport.a
+[ 36%] Built target LLVHSupport
+Scanning dependencies of target hermesFrontEndDefs
+[ 36%] Building CXX object lib/FrontEndDefs/CMakeFiles/hermesFrontEndDefs.dir/Builtins.cpp.o
+[ 36%] Linking CXX static library libhermesFrontEndDefs.a
+Scanning dependencies of target hermesPlatformUnicode
+[ 36%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeJava.cpp.o
+[ 36%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeCF.cpp.o
+[ 36%] Built target hermesFrontEndDefs
+[ 36%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeICU.cpp.o
+Scanning dependencies of target hermesOptimizer
+[ 36%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/PassManager/Pipeline.cpp.o
+[ 36%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeLite.cpp.o
+[ 36%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/PlatformUnicodeEmscripten.cpp.o
+[ 40%] Building CXX object lib/Platform/Unicode/CMakeFiles/hermesPlatformUnicode.dir/CharacterProperties.cpp.o
+[ 40%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/Scalar/SimplifyCFG.cpp.o
+[ 40%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/Scalar/CSE.cpp.o
+[ 40%] Linking CXX static library libhermesPlatformUnicode.a
+[ 40%] Built target hermesPlatformUnicode
+Scanning dependencies of target hermesRegex
+[ 40%] Building CXX object lib/Regex/CMakeFiles/hermesRegex.dir/RegexParser.cpp.o
+[ 40%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/Scalar/CodeMotion.cpp.o
+
+CMake Deprecation Warning at CMakeLists.txt:42 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+icu dir: /usr/lib/x86_64-linux-gnu
+In file included from /usr/include/c++/9/cassert:44,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/external/llvh/include/llvh/ADT/ArrayRef.h:20,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/include/hermes/Platform/Unicode/CodePointSet.h:14,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:9:
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::applyTransform(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:98:27: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+   98 |       r.start <= cp && cp < r.start + r.count &&
+      |                        ~~~^~~~~~~~~~~~~~~~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'bool hermes::operator<(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:114:28: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'unsigned int'} [-Wsign-compare]
+  114 |   return m.start + m.count <= cp;
+      |          ~~~~~~~~~~~~~~~~~~^~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::canonicalize(uint32_t, bool)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:205:48: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  205 |   if (where != end && where->start <= cp && cp < where->start + where->count) {
+      |                                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=8cada235-482e-498b-8011-0cdf3c9698f4, currentDir=/utkusarioglu/trials/rn-18/android/android}
+Attempting to read last messages from the daemon log...
+Daemon pid: 28171
+  log file: /home/rn/.gradle/daemon/7.5.1/daemon-28171.out.log
+----- Last  20 lines from daemon log file - daemon-28171.out.log -----
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/external/llvh/include/llvh/ADT/ArrayRef.h:20,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/include/hermes/Platform/Unicode/CodePointSet.h:14,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:9:
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::applyTransform(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:98:27: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+   98 |       r.start <= cp && cp < r.start + r.count &&
+      |                        ~~~^~~~~~~~~~~~~~~~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'bool hermes::operator<(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:114:28: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'unsigned int'} [-Wsign-compare]
+  114 |   return m.start + m.count <= cp;
+      |          ~~~~~~~~~~~~~~~~~~^~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::canonicalize(uint32_t, bool)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:205:48: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  205 |   if (where != end && where->start <= cp && cp < where->start + where->count) {
+      |                                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 40%] Linking CXX static library libhermesPlatformUnicode.a
+[ 40%] Built target hermesPlatformUnicode
+Scanning dependencies of target hermesRegex
+[ 40%] Building CXX object lib/Regex/CMakeFiles/hermesRegex.dir/RegexParser.cpp.o
+[ 40%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/Scalar/CodeMotion.cpp.o
+----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
+Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+CMake Deprecation Warning at CMakeLists.txt:42 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+icu dir: /usr/lib/x86_64-linux-gnu
+In file included from /usr/include/c++/9/cassert:44,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/external/llvh/include/llvh/ADT/ArrayRef.h:20,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/include/hermes/Platform/Unicode/CodePointSet.h:14,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:9:
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::applyTransform(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:98:27: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+   98 |       r.start <= cp && cp < r.start + r.count &&
+      |                        ~~~^~~~~~~~~~~~~~~~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'bool hermes::operator<(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:114:28: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'unsigned int'} [-Wsign-compare]
+  114 |   return m.start + m.count <= cp;
+      |          ~~~~~~~~~~~~~~~~~~^~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::canonicalize(uint32_t, bool)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:205:48: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  205 |   if (where != end && where->start <= cp && cp < where->start + where->count) {
+      |                                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=8cada235-482e-498b-8011-0cdf3c9698f4, currentDir=/utkusarioglu/trials/rn-18/android/android}
+Attempting to read last messages from the daemon log...
+Daemon pid: 28171
+  log file: /home/rn/.gradle/daemon/7.5.1/daemon-28171.out.log
+----- Last  20 lines from daemon log file - daemon-28171.out.log -----
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/external/llvh/include/llvh/ADT/ArrayRef.h:20,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/include/hermes/Platform/Unicode/CodePointSet.h:14,
+                 from /utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:9:
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::applyTransform(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:98:27: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+   98 |       r.start <= cp && cp < r.start + r.count &&
+      |                        ~~~^~~~~~~~~~~~~~~~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'bool hermes::operator<(const hermes::UnicodeTransformRange&, uint32_t)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:114:28: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'unsigned int'} [-Wsign-compare]
+  114 |   return m.start + m.count <= cp;
+      |          ~~~~~~~~~~~~~~~~~~^~~~~
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp: In function 'uint32_t hermes::canonicalize(uint32_t, bool)':
+/utkusarioglu/trials/rn-18/android/node_modules/react-native/sdks/hermes/lib/Platform/Unicode/CharacterProperties.cpp:205:48: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'unsigned int'} and 'int' [-Wsign-compare]
+  205 |   if (where != end && where->start <= cp && cp < where->start + where->count) {
+      |                                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 40%] Linking CXX static library libhermesPlatformUnicode.a
+[ 40%] Built target hermesPlatformUnicode
+Scanning dependencies of target hermesRegex
+[ 40%] Building CXX object lib/Regex/CMakeFiles/hermesRegex.dir/RegexParser.cpp.o
+[ 40%] Building CXX object lib/CMakeFiles/hermesOptimizer.dir/Optimizer/Scalar/CodeMotion.cpp.o
+----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+    at makeError (/utkusarioglu/trials/rn-18/android/node_modules/execa/index.js:174:9)
+    at /utkusarioglu/trials/rn-18/android/node_modules/execa/index.js:278:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async runOnAllDevices (/utkusarioglu/trials/rn-18/android/node_modules/@react-native-community/cli-platform-android/build/commands/runAndroid/runOnAllDevices.js:109:5)
+    at async Command.handleAction (/utkusarioglu/trials/rn-18/android/node_modules/@react-native-community/cli/build/index.js:142:9)
+info Run CLI with --verbose flag for more details.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+ *  The terminal process "/usr/bin/bash '-c', 'yarn run android'" terminated with exit code: 1. 
+du -sch .[^.]* * | sort -hr

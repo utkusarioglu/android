@@ -25,11 +25,11 @@ export type HomeScreenProps = NativeStackScreenProps<
 };
 
 const useBottomNavigationState = (initialState = 0) => {
-  const [selectedIndex, setSelectedIndex] = React.useState(0);
+  const [selectedIndex, setSelectedIndex] = React.useState(initialState);
   return { selectedIndex, onSelect: setSelectedIndex };
 };
 
-const HomeScreen: FC<HomeScreenProps> = ({ navigation, logoutOnPress }) => {
+const HomeScreen: FC<HomeScreenProps> = ({ logoutOnPress }) => {
   const bottomState = useBottomNavigationState();
 
   return (
