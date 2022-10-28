@@ -11,11 +11,11 @@ jobs:
     container:
       image: utkusarioglu/react-native-android-devcontainer:1.0.7
     steps:
-      - name: Checkout hooks
-        uses: actions/checkout@v2
-        with:
-          repository: utkusarioglu/hooks
-          path: hooks
+      # - name: Checkout hooks
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: utkusarioglu/hooks
+      #     path: hooks
 
       - name: Checkout android
         uses: actions/checkout@v2
@@ -23,9 +23,9 @@ jobs:
           repository: utkusarioglu/android
           path: android
 
-      - name: Install hooks dependencies
-        working-directory: hooks
-        run: yarn install --frozen-lockfile --production false
+      # - name: Install hooks dependencies
+      #   working-directory: hooks
+      #   run: yarn install --frozen-lockfile --production false
 
       - name: Install android dependencies
         working-directory: android
